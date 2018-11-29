@@ -17,7 +17,7 @@ Another misconception about evidence of identity is that it only applies during 
 
 #### Complete mediation ####
 
-The Principle of Complete Mediation requires all secured pages, functions and data to be protected by an authentication control. At it's simplest, complete mediation could be implemented by 
+The Principle of Complete Mediation requires all secured pages, functions and data to be protected by an authentication control. At its simplest, complete mediation could be implemented by 
 
 #### Enforce authentication ####
 
@@ -57,11 +57,11 @@ But the main point is that only one of these 'challenges' to the entity is used 
 
 As laws and regulations change regularly, the reader should be aware of the regulatory environments they operate in. OWASP is not a source of legal advice. That being said, the following may be used as starting points for further research.
 
-When protecting resources from the unauthorized, two-factor authentication is the bare minimum. Usual implementations employ an intangible secret with a real world factor like a physical key or palm print. It is rare to see multi-factor security above two-factor authentication outside of government, medical, and banking applications but not unheard of.
+When protecting resources from the unauthorized, two-factor authentication is the bare minimum. Usual implementations employ an intangible secret with a real world factor like a physical key or palm print. The most popular implementation is with YubiKey type token generators either with a physical real world generator device or software token generator. It is rare to see multi-factor authentication security with biometric and physical infrastructure outside of government, medical, and banking applications but not unheard of.
 
 For matters in the United States HIPAA for healthcare, Office of Management &amp; Budget Memorandum 07-16 for government, and Special Publication 800-63 Electronic Authentication Guideline from the National Institute of Standards and Technology all specify when two factor authentication is part of best practices if not required.
 
-Australian federal government departments must comply with the first four of the ASD Top 35 in addition to Australian Privacy Principles and Medicare Act if maintaning health records.
+Australian federal government departments must comply with the first four of the ASD Top 35 in addition to Australian Privacy Principles and Medicare Act if maintaining health records.
 
 Additionally, documents from ISO 2000x (specifically ISO 20007), ISO 31000 (derived from AS/NZS 4360), NZIM, Jericho Forum, ENISA IAF, BSI Germany, and BITS Shared Assessments - AUP / SIG may apply in regards to acceptable international security practices.
 
@@ -93,7 +93,7 @@ C) Biometric authentication relies on trust of the biometric device, which unles
 D) The false positive rate within large user populations means that biometrics cannot be used as a single factor authentication mechanism.
 E) The cost of biometric devices is relatively high compared to secure alternatives, such as transaction signing tokens or SMS one time passwords.
 
-Biometric authentication can be a useful mechanism where the user has a device under their control, and the only enrolled user 
+Biometric authentication can be a useful mechanism where the user has a device under their control, and is the only enrolled user 
 
 ### Authentication Patterns ###
 
